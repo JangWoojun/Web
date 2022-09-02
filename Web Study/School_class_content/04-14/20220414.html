@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델</title>
+    <style>
+        * { padding: 0;
+        margin: 0 auto}
+        
+        div {background-color: fuchsia;
+        width: 90px;
+        padding: 10px 90px;
+        border: 10px solid maroon;
+        margin: 50px;
+        text-align: center;
+        border-radius: 999px}
+    
+        div.parent {margin-left: 500px;}
+        div.child {background-color: yellow;
+        margin-left: inherit;}
+    </style>
+</head>
+<body>
+<h1>css 박스모델</h1>
+
+</body>
+<div class="parent"> <b>css 박스모델</b>입니다
+<div class="child">속성값을 inherit로 설정</div>
+</div>
+</html>
