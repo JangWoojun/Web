@@ -1,0 +1,71 @@
+@charset "utf-8";
+html {font-size: 100%;}
+body {
+    color:#555;
+    text-align: center;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    font-size: 1.25rem;
+    background-color: #121212;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.content {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+#lnb ul {
+    font-size: 0;
+}
+
+#lnb li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2rem;
+    padding: 10px 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#lnb.fixed {
+    position: fixed;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+.area:nth-child(odd) {
+    background-color: bisque;
+}
+.area:nth-child(even) {
+    background-color: white;
+}
+.title {
+    font-size: 7rem;
+    font-family: 'Dancing Script', cursive;
+}
+#lnb ul :hover {
+    color: gray;
+}
+
+@media (max-width:600px){
+    .title {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+    #lnb li {
+        font-size: 1.25rem;
+    }
+}
