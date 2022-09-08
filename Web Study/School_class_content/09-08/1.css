@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.head {
+    background-color: orange;
+}
+
+body {
+    background-color: beige;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+}
+.navbar li  a {
+    padding: 12px 40px;
+    color: white;
+    text-decoration: none;
+}
+.navbar li {
+    display: inline-block;
+}
+.side {
+    flex: 30%;
+    background-color: orange;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    flex:70%;
+    background-color: beige;
+}
+.mp {
+    margin-left: 20px;
+}
+h2 {
+    margin-left: 20px;
+}
+.row img{
+    margin-left: 20px;
+}
