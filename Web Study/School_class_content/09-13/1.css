@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.child {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    text-align: center;
+    
+    /* display: inline-block; */
+    /* margin: auto; */
+}
+.child1 {top:0; left: 500px;}
+.child2 {top:0; right: 500px;}
+.child3 {bottom:0; left: 100%;}
+.child4 {bottom:0; right: 100%;}
+.child5 {top:50%; left: 50%;
+transform: translate(-50%, -50%);}
