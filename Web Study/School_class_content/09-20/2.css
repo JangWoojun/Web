@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+    border: 1px solid black;
+    tab-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+header > div {
+    border: 1px solid black;
+}
+.logo{
+    width: 200px;
+}
+.nav {
+    width: 600px;
+}
+.slide {
+    display: flex;
+    height: 300px;
+}
+.slide div {
+    width: 1200px;
+}
+.slide > div {
+    border: 1px solid black;
+}
+.items {
+    height: 200px;
+    display: flex;
+}
+.items > div {
+    border: 1px solid black;
+}
+.news {
+    width: 400px;
+}
+.banner {
+    width: 400px;
+}
+.goto {
+    width: 400px;
+}
+footer {
+    display: flex;
+    height: 100px;
+}
+footer > div {
+    border: 1px solid black;
+}
+.footer-logo {
+    width: 200px;
+}
+.copyright {
+    width: 800px;
+}
+.sns {
+    width: 200px;
+}
+/* nav */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    padding: 0;
+    list-style: none;
+
+}
+.menu li {
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.menu li > a {
+    border: 1px solid black;
+    display: block;
+    padding: 5px;
+}
+.menu li:hover > a {
+    background-color: black;
+    color: white;
+}
+.submenu {
+    background-color: white;
+    height: 135px;
+    /* display: none; */
+}
+.submenu a {
+    display: block;
+    padding: 5px;
+}
+.submenu a:hover {
+    background-color: black;
+    color: white;
+}
