@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 300px;
+        }
+        a {
+            background-color: gainsboro;
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+            width: 70px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .container div {
+            background-color: skyblue;
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            line-height: 250px;
+            color: white;
+            margin-top: 5px;
+            /*display: none;*/
+        }
+        .container div.active {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="add-btn" href="#">넣기</a>
+        <a class="remove-btn" href="#">빼기</a>
+        <a class="toggle-btn" href="#">토글</a>
+        <div>Box</div>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script src="1.js"></script>
+</body>
+</html>
