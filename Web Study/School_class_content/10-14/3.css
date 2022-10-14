@@ -1,0 +1,28 @@
+.menu {
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+.menu li > a {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.submenu {
+    border: 1px solid black;
+    display: none;
+}
+.submenu > a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+.submenu a:hover {
+    background-color: black;
+    color: white;
+}
