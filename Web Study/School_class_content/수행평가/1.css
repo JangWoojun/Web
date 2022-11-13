@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+header {
+    height: 110px;
+    background-color: black;
+}
+.name {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+}
+.list li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.list {
+    text-align: center;
+}
+.list li a {
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.list li a:link{
+    color: white;
+}
+.list li a:visited{
+    color: white;
+}
+.list li a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.list li a:hover:after {
+    transform: scaleX(1);
+}
+.main {
+    margin: 0 auto;
+    height: 1500px;
+    width: 1300px;
+}
+footer {
+    background-color: #424242;
+    height: 230px;
+}
+.footermain {
+    margin: 0 auto;
+    height: 200px;
+    width: 1300px;
+    padding-top: 20px;
+}
+span {
+    color: white;
+    font-size: 25px;
+    margin-left: 38px;
+}
+.footermain ul {
+    list-style: none;
+    display: inline-block;
+}
+.footermain a {
+    text-decoration: none;
+}
+.footermain li a:link{
+    color: white;
+}
+.footermain li a:visited{
+    color: white;
+}
+.line {
+    height: 1px;
+    background-color: gray;
+}
+.footermain li {
+    padding-right: 70px;
+    padding-top: 10px;
+}
+.ha {
+    padding-top: 50px;
+    font-size: 13px;
+}
+.me {
+    font-family: 'Dancing Script', cursive;
+}
