@@ -44,7 +44,7 @@ header {
 }
 .main {
     margin: 0 auto;
-    height: 1500px;
+    height: 2000px;
     width: 1300px;
 }
 footer {
@@ -54,7 +54,7 @@ footer {
 .footermain {
     margin: 0 auto;
     height: 200px;
-    width: 1300px;
+    width: 1400px;
     padding-top: 20px;
 }
 span {
@@ -89,4 +89,76 @@ span {
 }
 .me {
     font-family: 'Dancing Script', cursive;
+}
+.welcome {
+    margin-top: 100px;
+}
+.welcome .main_img li img {
+    width: 616px;
+    height: 359px;
+    float: left;
+    margin-top: 10px;
+
+}
+.main li {
+    list-style: none;
+}
+.welcome .main_img li .side_img{
+    width: 550px;
+    height: 168px;
+    float: left;
+    margin: 10px;
+}
+.welcome .main_img li .side_img span{
+    width: 560px;
+    height: 168px;
+    float: left;
+    margin: 3px;
+    font-size: 20px;
+    color: #424242;
+}
+.welcome h2 {
+    margin-top: 40px;
+    color: #424242;
+    margin-left: 40px;
+}
+.hot h2 {
+    margin-top: 490px;
+    color: #424242;
+    margin-left: 40px;
+}
+.imgs img{
+    margin: 5px;
+    width: 405px;
+    float: left;
+    height: 270px;
+}
+.imgs div{
+    margin: 5px;
+    width: 405px;
+    float: left;
+    height: 270px;
+}
+.imgs h3 {
+    margin-left: 5px;
+}
+.imgs span {
+    color: #424242;
+    font-size: 13px;
+    float: left;
+    margin: 0 auto;
+}
+.imgs {
+    margin-left: 30px;
+}
+.NEWS h2 {
+    margin-top: 400px;
+    color: #424242;
+    margin-left: 40px;
+}
+.hot {
+    margin-top: 600px;
+}
+.NEWS {
+    margin-top: 500px;
 }
