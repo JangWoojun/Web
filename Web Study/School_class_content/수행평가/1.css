@@ -4,6 +4,7 @@ header {
     height: 110px;
     background-color: black;
 }
+
 .name {
     font-size: 40px;
     text-align: center;
@@ -12,87 +13,108 @@ header {
     list-style: none;
     font-family: 'Dancing Script', cursive;
 }
-.list li{
+
+.list li {
     display: inline-block;
     color: white;
     list-style: none;
     margin-left: 40px;
     margin-right: 40px;
 }
+
 .list {
     text-align: center;
 }
+
 .list li a {
     text-decoration: none;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-.list li a:link{
+
+.list li a:link {
     color: white;
 }
-.list li a:visited{
+
+.list li a:visited {
     color: white;
 }
+
 .list li a:after {
-    display:block;
+    display: block;
     content: '';
-    border-bottom: solid 3px white;  
-    transform: scaleX(0);  
+    border-bottom: solid 3px white;
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
+
 .list li a:hover:after {
     transform: scaleX(1);
 }
+
 .main {
     margin: 0 auto;
     height: 2000px;
     width: 1300px;
 }
+
 footer {
     background-color: #424242;
     height: 230px;
 }
+
 .footermain {
     margin: 0 auto;
     height: 200px;
     width: 1400px;
     padding-top: 20px;
 }
+
 span {
     color: white;
     font-size: 25px;
     margin-left: 38px;
 }
+
 .footermain ul {
     list-style: none;
     display: inline-block;
 }
+
 .footermain a {
     text-decoration: none;
 }
-.footermain li a:link{
+
+.footermain li a:link {
     color: white;
 }
-.footermain li a:visited{
+
+.footermain li a:visited {
     color: white;
 }
+
 .line {
     height: 1px;
     background-color: gray;
 }
+
 .footermain li {
     padding-right: 70px;
     padding-top: 10px;
 }
+
 .ha {
     padding-top: 50px;
     font-size: 13px;
 }
+
 .me {
     font-family: 'Dancing Script', cursive;
 }
+
 .welcome {
     margin-top: 100px;
 }
+
 .welcome .main_img li img {
     width: 616px;
     height: 359px;
@@ -100,16 +122,19 @@ span {
     margin-top: 10px;
 
 }
+
 .main li {
     list-style: none;
 }
-.welcome .main_img li .side_img{
+
+.welcome .main_img li .side_img {
     width: 550px;
     height: 168px;
     float: left;
     margin: 10px;
 }
-.welcome .main_img li .side_img span{
+
+.welcome .main_img li .side_img span {
     width: 560px;
     height: 168px;
     float: left;
@@ -117,48 +142,58 @@ span {
     font-size: 20px;
     color: #424242;
 }
+
 .welcome h2 {
     margin-top: 40px;
     color: #424242;
     margin-left: 40px;
 }
+
 .hot h2 {
     margin-top: 490px;
     color: #424242;
     margin-left: 40px;
 }
-.imgs img{
+
+.imgs img {
     margin: 5px;
     width: 405px;
     float: left;
     height: 270px;
 }
-.imgs div{
+
+.imgs div {
     margin: 5px;
     width: 405px;
     float: left;
     height: 270px;
 }
+
 .imgs h3 {
     margin-left: 5px;
 }
+
 .imgs span {
     color: #424242;
     font-size: 13px;
     float: left;
     margin: 0 auto;
 }
+
 .imgs {
     margin-left: 30px;
 }
+
 .NEWS h2 {
     margin-top: 400px;
     color: #424242;
     margin-left: 40px;
 }
+
 .hot {
     margin-top: 600px;
 }
+
 .NEWS {
     margin-top: 500px;
 }
