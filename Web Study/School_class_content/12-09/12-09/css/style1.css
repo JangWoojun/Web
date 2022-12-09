@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body { 
+    display: flex;
+    justify-content: center;
+    font-size: 15px;  }
+a { text-decoration: none;  color:#222;}
+.container {
+    border: 1px solid #ddd;
+    width: 1200px;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header > div { border: 1px solid #ddd;}
+.logo {  width: 200px; }
+.navi { width: 600px;  float: right;}
+
+/* Slide Animation */
+.slide {  height: 300px; width: 1200px; position: relative; overflow: hidden;}
+.slide > div a {
+    position: absolute; 
+    width: 3600px; 
+    top: 0; 
+    left: 0; 
+    opacity: 0; 
+    transform: translateY(200px);
+    transition: 0.5s; 
+}
+
+.slide > div a.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* .slide > div a:nth-child(1) {animation-delay: 0;}
+.slide > div a:nth-child(2) {animation-delay: 3.5s;}
+.slide > div a:nth-child(3) {animation-delay: 7s;}
+
+@keyframes slide {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    35% { opacity: 1; }
+    40% { opacity: 0; }
+    100% { opacity: 0; }
+} */
+
+.items { height: 200px;  display: flex;}
+.items > div {border: 1px solid #ddd;}
+.news { width: 500px; }
+.banner {width: 350px;}
+.goto {width: 350px;}
+
+footer { height: 100px;  display: flex;}
+footer > div { border: 1px solid #ddd; }
+.footer_logo {  width: 200px;}
+.copyright {width: 800px;}
+.sns { width: 200px;}
+
+/* Navigation */
+.menu {
+    padding: 0;
+    list-style: none;
+    margin-top: 30px;
+ 
+}
+.menu li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+   }
+.menu li > a {
+    border: 1px solid #000;
+    display: block;
+    padding: 5px;
+    transition: 0.5s;
+}
+.menu li:hover > a {
+    background-color: #000;
+    color: #fff;
+}
+.sub-menu {
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    height: 135px;
+    display: none;
+}
+
+.menu li .sub-menu {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+
+}
+/* 
+.menu li:last-child .sub-menu {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+} */
+
+.sub-menu a {
+    display: block;
+    padding: 5px;
+    transition: 0.5s;
+}
+.sub-menu a:hover {
+    background-color: #000;
+    color: #fff;
+}
