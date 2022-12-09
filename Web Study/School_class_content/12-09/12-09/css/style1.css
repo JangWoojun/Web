@@ -31,7 +31,7 @@ header > div { border: 1px solid #ddd;}
 }
 
 .slide > div a.active {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
 }
 
