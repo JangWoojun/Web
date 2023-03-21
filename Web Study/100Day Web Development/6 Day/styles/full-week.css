@@ -1,0 +1,41 @@
+h1 {
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+}
+
+body {
+    margin: 60px;
+    background-color: bisque;
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    background-color: cornsilk;
+    border-radius: 6px;
+}
+
+a {
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+    text-decoration: none;
+}
+
+.sub-head {
+    color: brown;
+    font-size: 42px;
+}
+
+.sub-text {
+    color: chocolate;
+    font-size: 24px;
+}
