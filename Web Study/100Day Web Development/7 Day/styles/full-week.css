@@ -1,0 +1,49 @@
+h1 {
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+}
+
+body {
+    margin: 60px;
+    background-color: bisque;
+}
+
+ol {
+    list-style: none;
+    width: 800px;
+    margin: 36px auto 0 auto;
+}
+
+li {
+    background-color: cornsilk;
+    border-radius: 32px;
+    padding: 12px;
+    margin: 32px;
+}
+
+a {
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+    text-decoration: none;
+}
+
+.sub-head {
+    color: brown;
+    font-size: 32px;
+}
+
+.sub-text {
+    color: chocolate;
+    font-size: 24px;
+}
+
+header p {
+    font-size: 24px;
+}
