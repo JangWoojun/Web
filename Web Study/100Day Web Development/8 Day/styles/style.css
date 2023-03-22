@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(233, 215, 207);
+}
+
+h1 {
+    color: rgb(31, 25, 25);
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif; 
+    color: #534b4b;
+}
+
+a {
+    color: rgb(66, 2, 2);
+}
+
+#today-challenge {
+    color: rgb(75, 59, 59);
+    font-weight: bold;
+    font-size: 52px;
+}
+
+img {
+    border: 5px solid rgb(44, 44, 44);
+    margin-top: -100px;
+}
+
+main {
+    width: 800px;
+    height: 450px;
+    background-color: rgb(216, 93, 76);
+    margin: 200px auto 72px auto;
+    border: 5px solid rgb(44, 44, 44);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+span {
+    color: rgb(86, 7, 4);
+}
