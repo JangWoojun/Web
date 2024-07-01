@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Screen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <div class="container">
+        <div class="top-part">
+            <h1 class="title">U&I</h1>
+            <div class="date-container">
+                <p id="date-title">우리가 처음 만난 날</p>
+                <p id="selected-date">2024.06.28</p>
+            </div>
+            <div class="heart-container">
+                <p>철수</p>
+                <button id="heart-button" class="heart-button">
+                    <img src="asset/img/heart.png" alt="Heart Icon">
+                </button>
+                <p>영희</p>
+            </div>
+            <p id="day-counter"></p>
+        </div>
+        <div class="bottom-part">
+            <img src="asset/img/lover.png" alt="Lover Image" class="lover-image">
+        </div>
+    </div>
+
+    <div id="date-picker-modal" class="modal">
+        <div class="modal-content">
+            <input type="date" id="date-picker">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
