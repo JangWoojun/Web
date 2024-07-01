@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'displayLarge';
+    src: url(asset/font/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: 'labelLarge';
+    src: url(asset/font/Sunflower-Bold.ttf);
+}
+@font-face {
+    font-family: 'displayMedium';
+    src: url(asset/font/Sunflower-Light.ttf);
+}
+@font-face {
+    font-family: 'titleMedium';
+    src: url(asset/font/Sunflower-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc1e3;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.top-part {
+    text-align: center;
+}
+
+.title {
+    font-family: 'displayLarge';
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.date-container p {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+#date-title {
+    font-size: 30px;
+    font-family: 'displayMedium';
+}
+
+#selected-date {
+    font-size: 20px;
+    font-family: 'titleMedium';
+}
+
+.heart-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-container p {
+    font-size: 30px;
+    margin: 0 10px;
+    font-family: 'displayMedium';
+}
+
+.heart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.heart-button img {
+    width: 60px;
+    height: 60px;
+}
+
+#day-counter {
+    font-family: 'labelLarge';
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.bottom-part {
+    flex-grow: 1;
+}
+
+.lover-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
